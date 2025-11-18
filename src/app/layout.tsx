@@ -28,6 +28,11 @@ export const metadata: Metadata = {
     statusBarStyle: "default",
     title: "hihungry",
   },
+  icons: {
+    icon: "/hihungry-icon.svg",
+    shortcut: "/hihungry-icon.svg",
+    apple: "/hihungry-icon.svg",
+  },
 };
 
 export default function RootLayout({

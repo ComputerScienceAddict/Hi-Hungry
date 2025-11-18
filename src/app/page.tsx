@@ -16,9 +16,10 @@ import {
   History,
   Check,
   SlidersHorizontal,
-  Sparkles,
   Star,
   Loader2,
+  UtensilsCrossed,
+  ChefHat,
 } from "lucide-react";
 import Link from "next/link";
 
@@ -1168,7 +1169,7 @@ export default function Home() {
             </p>
             {saved.length === 0 ? (
               <div className="flex flex-col items-center justify-center rounded-3xl border border-dashed border-gray-300 bg-gray-50 px-6 py-16 text-center">
-                <Sparkles className="h-12 w-12 text-gray-400 mb-4" />
+                <ChefHat className="h-12 w-12 text-gray-400 mb-4" />
                 <p className="mb-2 text-lg font-semibold text-gray-900">
                   No swipe history yet
                 </p>
@@ -1393,7 +1394,7 @@ export default function Home() {
                   activeTab === "recommendations" ? "bg-gray-100" : ""
                 }`} />
                 <div className="relative z-10">
-                  <Sparkles className={`h-6 w-6 transition-colors ${
+                  <UtensilsCrossed className={`h-6 w-6 transition-colors ${
                     activeTab === "recommendations" ? "text-gray-900" : "text-gray-500"
                   }`} />
                 </div>
